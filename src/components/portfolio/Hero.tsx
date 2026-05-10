@@ -2,7 +2,7 @@ import { ArrowRight, Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { useEffect, useState } from "react";
 import heroBg from "@/assets/hero-bg.jpg";
 
-const phrases = ["Full-Stack Developer", "Full Stack Developer", "AI/AR Tinkerer", "UI/UX Enthusiast"];
+const phrases = ["Full-Stack Developer", "Full Stack Developer"];
 
 export const Hero = () => {
   const [text, setText] = useState("");
